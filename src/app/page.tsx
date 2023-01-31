@@ -22,17 +22,17 @@ export default function Home() {
     <>
       <Navbar />
       <div className="w-screen h-screen bg-black flex items-center gap-4 relative">
-        <div className="flex-1 px-8 h-full md:hidden">
+        <div className="flex-1 px-8 h-full hidden md:block">
           <img src={hero_img.src} alt="" className="h-full" />
         </div>
-        <div className="flex-1 md:p-12 p-0">
+        <div className="flex-1 md:p-12 p-8 text-center">
           <div className="text-white text-[48px] font-medium font-display">
             Be part of a decision
           </div>
-          <div className="text-[#015FC7] text-[100px] font-bold font-display">
+          <div className="text-[#015FC7] text-[75px] md:text-[100px] font-bold font-display">
             Vote today
           </div>
-          <div className="flex gap-8 items-center justify-center mt-4 font-outfit">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-8 items-center justify-center mt-4 font-outfit">
             <button className="bg-[#0160C8] w-full flex justify-center items-center py-2 text-[25px] text-white font-medium  rounded-[8px]">
               Register
             </button>
